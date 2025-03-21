@@ -1,0 +1,26 @@
+{
+  "testCase": {
+    "label": "Happy mood",
+    "text": "I'm feeling really excited today! Everything seems to be going well and I can't wait to see what the day brings."
+  },
+  "result": {
+    "mood": "energetic",
+    "energy": 0.95,
+    "valence": 0.98,
+    "danceability": 0.85,
+    "genres": [
+      "upbeat pop",
+      "indie rock",
+      "electronic dance music",
+      "synthpop"
+    ],
+    "descriptors": [
+      "uplifting",
+      "motivational",
+      "optimistic",
+      "carefree"
+    ],
+    "explanation": "The text expresses a strong sense of excitement and anticipation, indicating a high energy level and positive emotional state. The music should be energetic, uplifting, and motivational to match the overall tone."
+  },
+  "analysisTime": "2025-03-21T14:35:10.360Z"
+}

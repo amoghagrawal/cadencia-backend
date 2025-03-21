@@ -1,0 +1,26 @@
+{
+  "testCase": {
+    "label": "Sad mood",
+    "text": "I've been feeling down all day. Nothing seems to be going right and I just want to curl up and sleep."
+  },
+  "result": {
+    "mood": "melancholic",
+    "energy": 0.25,
+    "valence": 0.15,
+    "danceability": 0.1,
+    "genres": [
+      "lo-fi",
+      "chillout",
+      "ambient",
+      "downtempo"
+    ],
+    "descriptors": [
+      "mellow",
+      "calming",
+      "somber",
+      "contemplative"
+    ],
+    "explanation": "The text expresses a low energy and negative emotional state, indicating a melancholic mood. The desire to curl up and sleep further supports this analysis."
+  },
+  "analysisTime": "2025-03-21T14:35:10.670Z"
+}
