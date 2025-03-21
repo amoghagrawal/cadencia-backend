@@ -6,7 +6,7 @@ const readline = require('readline');
 const fs = require('fs');
 const path = require('path');
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://cadencia-backend.vercel.app';
 const CONFIG_FILE = path.join(__dirname, 'spotify-config.json');
 
 // Create readline interface
