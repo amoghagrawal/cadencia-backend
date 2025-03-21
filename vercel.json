@@ -4,12 +4,16 @@
     {
       "src": "dist/index.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/index.js"
+      "dest": "/api/index.js"
     }
   ],
   "env": {

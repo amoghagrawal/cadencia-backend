@@ -46,6 +46,24 @@ app.use('/api/mood', moodRoutes);
 app.use('/api/spotify', spotifyRoutes);
 app.use('/api/music', musicRoutes);
 
+// Add a root path handler
+app.get('/', (req: Request, res: Response) => {
+  res.status(200).json({
+    name: 'Cadencia Backend API',
+    status: 'running',
+    timestamp: new Date().toISOString(),
+    endpoints: [
+      '/health',
+      '/api/mood/analyze',
+      '/api/mood/recommendations',
+      '/api/spotify/login',
+      '/api/spotify/search',
+      '/api/music/recommendations-from-text',
+      '/api/music/recommendations-from-mood'
+    ]
+  });
+});
+
 // Error handling middleware
 interface ErrorResponse {
   message: string;

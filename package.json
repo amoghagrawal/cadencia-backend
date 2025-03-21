@@ -4,10 +4,10 @@
   "description": "Backend service for Cadencia music app with GroqAPI integration",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc && cp package.json dist/",
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "dev:clean": "node kill-port.js && npm run dev",
-    "build": "tsc",
     "test": "jest",
     "client": "node client.js",
     "test:ai": "node test-ai-quality.js",
