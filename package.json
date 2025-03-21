@@ -13,7 +13,8 @@
     "test:ai": "node test-ai-quality.js",
     "test:stress": "node stress-test.js",
     "kill-port": "node kill-port.js",
-    "spotify": "node spotify-client.js"
+    "spotify": "node spotify-client.js",
+    "vercel-build": "node vercel-build.js"
   },
   "keywords": [
     "music",
@@ -40,7 +41,8 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "groq": "^3.80.1",
-    "readline": "^1.3.0"
+    "readline": "^1.3.0",
+    "typescript": "^5.8.2"
   },
   "engines": {
     "node": ">=18.x"
