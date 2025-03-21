@@ -7,7 +7,9 @@ const groq = new Groq({
 });
 
 // Model to use for analysis
-const MODEL = process.env.GROQ_MODEL || 'llama-3.1-8b-instant';
+const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
+const API_URL = process.env.GROQ_API_URL || 'https://api.groq.com/openai/v1';
+const MODEL = process.env.GROQ_MODEL || 'llama3-8b-8192';
 
 // Mood analysis parameters interface
 export interface MoodAnalysisParams {

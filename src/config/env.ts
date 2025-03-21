@@ -20,7 +20,7 @@ export const config: EnvironmentConfig = {
   NODE_ENV: (process.env.NODE_ENV as 'development' | 'production' | 'test') || 'development',
   GROQ_API_KEY: process.env.GROQ_API_KEY || '',
   GROQ_API_URL: process.env.GROQ_API_URL || 'https://api.groq.com/openai/v1',
-  GROQ_MODEL: process.env.GROQ_MODEL || 'llama-3-8b',
+  GROQ_MODEL: process.env.GROQ_MODEL || 'llama3-8b-8192',
   SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
   SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
 };

@@ -27,8 +27,9 @@ This is the backend service for the Cadencia music recommendation app, providing
    ```
 4. Copy the `.env.example` file to `.env` and add your Groq API key:
    ```
-   GROQ_API_KEY=your_api_key_here
-   GROQ_MODEL=llama-3-8b-8192
+   GROQ_API_KEY=your_groq_api_key_here
+   GROQ_API_URL=https://api.groq.com/openai/v1
+   GROQ_MODEL=llama3-8b-8192
    PORT=3000
    NODE_ENV=development
    ```
